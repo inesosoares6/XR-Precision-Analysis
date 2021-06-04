@@ -13,14 +13,14 @@ Repos Guide:
 5. After that, just click on *Build all, then Install*. It may take a few minutes depending on the computer, but when finished, the application is ready to be launched in the headset.
 
 ### HTC Vive application
-1. The Unity application which is on the [*ExtractCoordinates_HTCVive* folder](../ExtractCoordinates_HTCVive/) needs to be installed in the HTC Vive. The installation can be done through the Unity interface, and the version used for the application was 2019.4.2f1.
+1. The Unity application which is on the [*ExtractCoordinates_HTCVive* folder](https://github.com/inesosoares6/ExtractCoordinates_HTCvive/README.md) needs to be installed in the HTC Vive. The installation can be done through the Unity interface, and the version used for the application was 2019.4.2f1.
 2. Therefore, you should open the Unity application through Unity Hub.
 3. After opening the application in Unity, be careful to change the IP address (go to RosConnector object -> Inspector -> *Ros Bridge Server_IP*) to the IP of the computer where ROS will be running.
 4. Then, you should install the application into the headset. To do that open the Build Settings and choose the platform *PC, Mac & Linux Standalone*. Connect the HTC Vive Device to the computer and in Strem VR verify that the headset, the controllers and the base stations are being correctly detected.
 5. After that, just click on *Build and Run*. It may take a few minutes depending on the computer, but when finished, the application will be launched in the headset.
 
 ### ROS package
-1. Now, switching to the ROS environment, the ROS package included in the folder [*Repeatability_tests_ROS*](../Repeatability_tests_ROS/) should be copied to the catkin workspace and then built. To do that through the terminal, type the following commands.
+1. Now, switching to the ROS environment, the ROS package included in the folder [*Repeatability_tests_ROS*](https://github.com/inesosoares6/Repeatability_tests/README.md) should be copied to the catkin workspace and then built. To do that through the terminal, type the following commands.
 ```
 $ cd ~/catkin_ws/src
 $ git clone https://gitlab.inesctec.pt/mirrorlabs/headset_precision_analysis.git
