@@ -37,8 +37,8 @@ $ sudo apt install ros-melodic-rosbridge-server
 
 
 Notes: 
-- The Unity application itself gives the necessary instructions on how to use it, however in [this page](https://github.com/inesosoares6/ExtractCoordinates_HTCvive/README.md) is done an overview on how it works.
-- For further details on how the ROS package works, [this page](https://github.com/inesosoares6/Repeatability_tests/README.md) clarifies what scripts to execute and what they do.
+- The Unity application itself gives the necessary instructions on how to use it, however in [this page](https://github.com/inesosoares6/ExtractCoordinates_HTCvive/blob/master/README.md) is done an overview on how it works.
+- For further details on how the ROS package works, [this page](https://github.com/inesosoares6/Repeatability_tests/blob/main/README.md) clarifies what scripts to execute and what they do.
 
 ## Author
 Inês de Oliveira Soares (ines.o.soares@inesctec.pt | up201606615@up.pt)
