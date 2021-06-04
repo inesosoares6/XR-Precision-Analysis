@@ -1,0 +1,6 @@
+[submodule "ExtractCoordinates_HTCvive"]
+	path = ExtractCoordinates_HTCvive
+	url = https://github.com/inesosoares6/ExtractCoordinates_HTCvive.git
+[submodule "Repeatability_tests"]
+	path = Repeatability_tests
+	url = https://github.com/inesosoares6/Repeatability_tests.git
