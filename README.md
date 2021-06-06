@@ -4,6 +4,12 @@ Repos Guide:
 - ExtractCoordinates_HTCVive -> Unity application of the Coordinate Extraction in HTC Vive
 - Repeatability_tests_ROS -> ROS package of the Repeatability and Accuracy Tests
 
+## System overview
+
+The figure below represents an overview of the system developed for these tests, the data acquired by the Extended Reality devices and the OptiTrack system are sent to ROS, where they are synchronized. After that, in MATLAB, the data is analysed and the accuracy, repeatability and possible delays are calculated. Additionally, some plots to illustrate the results are drawn. 
+
+![rep_tests_overview](https://user-images.githubusercontent.com/76999213/120935529-2c76b480-c6fb-11eb-97f5-88a74ee56d68.png)
+
 ## Instructions on how to use
 ### HoloLens 2 application
 1. The Unity application which is on the [*Operator4.0_HoloLens2* folder](https://github.com/inesosoares6/Operator4.0_HoloLens2) needs to be installed in the HoloLens2. The installation can be done through the Unity interface, and the version used for the application was 2019.4.2f1.
