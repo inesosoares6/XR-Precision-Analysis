@@ -8,7 +8,10 @@ Repos Guide:
 
 The figure below represents an overview of the system developed for these tests, the data acquired by the Extended Reality devices and the OptiTrack system are sent to ROS, where they are synchronized. After that, in MATLAB, the data is analysed and the accuracy, repeatability and possible delays are calculated. Additionally, some plots to illustrate the results are drawn. 
 
-![rep_tests_overview](https://user-images.githubusercontent.com/76999213/120935529-2c76b480-c6fb-11eb-97f5-88a74ee56d68.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/76999213/120935529-2c76b480-c6fb-11eb-97f5-88a74ee56d68.png"  height="400" >
+</p>
+
 
 ## Instructions on how to use
 ### HoloLens 2 application
